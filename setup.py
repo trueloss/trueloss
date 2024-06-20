@@ -3,7 +3,7 @@ from setuptools.command.install import install
 
 class CustomInstallCommand(install):
     def run(self):
-        print('Hello! Just make sure you have TensorFlow>=2.0 and Matplotlib>=3 installed. Siddique!')
+        print('Hello! Just make sure you have TensorFlow>2.0 and Matplotlib>=3 installed. Siddique!')
         install.run(self)
 
 setup(

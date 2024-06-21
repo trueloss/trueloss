@@ -32,7 +32,12 @@ class trueloss:
         return history
 
     def plot_fn(self, history):
-        
+        """
+        Plot the training and validation loss and accuracy.
+
+        Parameters:
+        - history: Training history object returned by keras model.
+        """
         plt.figure(figsize=(11, 5))
         epochs = range(1, len(history.history['loss']) + 1)
 

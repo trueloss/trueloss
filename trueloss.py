@@ -19,7 +19,8 @@ class trueloss:
 
     def fit(self, *args, **kwargs):
         """
-        Train the model and plot the training progress if required.
+        Train the model. Enter the same parameters you enter for keras_model.fit() function in the exact same fashion.
+        Don't worry about parameters it's very dynamic.
 
         Returns:
         - history: Training keras history object.
@@ -31,13 +32,7 @@ class trueloss:
         return history
 
     def plot_fn(self, history):
-        """
-        Train the model. Enter the same parameters you enter for keras_model.fit() function in the exact same fashion.
-        Don't worry about parameters it's very dynamic.
-
-        Returns:
-        - history: Training keras history object.
-        """
+        
         plt.figure(figsize=(11, 5))
         epochs = range(1, len(history.history['loss']) + 1)
 

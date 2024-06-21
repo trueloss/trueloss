@@ -146,7 +146,7 @@ history = true_loss_instance.fit(x_train, y_train,
                                  verbose=1)
 ```
 
-You can also visit this [notebook](https://github.com/trueloss/trueloss/tests/example.ipynb) for an example.
+You can also visit this [notebook](https://github.com/trueloss/trueloss/blob/main/tests/example.ipynb) for an example.
 
 
 
@@ -156,7 +156,7 @@ Contributions are welcome! If you have any improvements, suggestions, or bug fix
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/trueloss/trueloss/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/trueloss/trueloss/blob/main/LICENSE) file for details.
 
 ## Contact
 
